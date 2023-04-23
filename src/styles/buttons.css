@@ -37,8 +37,8 @@
 
 .button__secondary:hover {
     color: var(--color-grey-2);
-    background-color: var(--color-grey-8);
-    border: 0.0625rem solid var(--color-grey-8);
+    background-color: var(--color-grey-9);
+    border: 0.0625rem solid var(--color-grey-9);
     transition: 0.5s;
 }
 
