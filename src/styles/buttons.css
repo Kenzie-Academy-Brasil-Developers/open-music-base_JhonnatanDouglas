@@ -37,8 +37,8 @@
 
 .button__secondary:hover {
     color: var(--color-grey-2);
-    background-color: var(--color-grey-9);
-    border: 0.0625rem solid var(--color-grey-9);
+    background-color: var(--color-grey-8);
+    border: 0.0625rem solid var(--color-grey-8);
     transition: 0.5s;
 }
 
@@ -67,6 +67,11 @@
 }
 
 .backgroundCard:hover {
+    background-color: var(--color-grey-6);
+    transition: 0.5s;
+}
+
+.dark__mode .backgroundCard:hover {
     background-color: var(--color-grey-7);
     transition: 0.5s;
 }
