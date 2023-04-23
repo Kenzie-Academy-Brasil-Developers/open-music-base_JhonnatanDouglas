@@ -1,0 +1,207 @@
+/* Desenvolva sua estilização aqui ... */
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+}
+
+.header__container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.6875rem auto 4.0625rem;
+    width: var(--container);
+    height: 2.5rem;
+}
+
+.header__container > div > h1 {
+    color: var(--color-grey-1);
+    font-size: var(--font-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.music-styles__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+
+.genre__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8.75rem;
+}
+
+.genre__container > h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .genre__container > h2 {
+    color: var(--color-grey-5);
+}
+
+.genre__container > ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    gap: 1.875rem 2.4813rem;
+}
+
+.genre__container > ul > li {
+    height: 2rem;
+}
+
+.price__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4.375rem;
+}
+
+.price__container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.25rem;
+}
+
+.price__container > div > h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .price__container > div > h2 {
+    color: var(--color-grey-5);
+}
+
+.price__container > div > p {
+    color: var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .price__container > div > p {
+    color: var(--color-grey-5);
+}
+
+.price__container > input {
+    height: 1.5625rem;
+}
+
+.albums-found__container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 3.75rem;
+}
+
+.albums-found__container > h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .albums-found__container > h2 {
+    color: var(--color-grey-5);
+}
+
+.albums__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2.5rem 1.5625rem;
+}
+
+.albums__list > li {
+    display: flex;
+    flex-direction: column;
+    width: 21.25rem;
+    border-radius: 0.25rem;
+    gap: 0.75rem;
+}
+
+.albums__list > li > figure {
+    margin: 0rem;
+}
+
+.albums__list > li > figure > img {
+    width: 100%;
+    height: 7.1875rem;
+    border-radius: 0.25rem / 0.25rem 0.25rem 0rem 0rem;
+    background-size: cover;
+}
+
+.albums__list > li > figure > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem;
+    width: max-content;
+    height: 0.9375rem;
+    gap: 1.25rem;
+}
+
+.albums__list > li > figure > div > figcaption {
+    color: var(--color-grey-2);
+    font-size: var(--font-4);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .albums__list > li > figure > div > figcaption {
+    color: var(--color-grey-6);
+}
+
+.albums__list > li > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0rem 1rem 1.25rem;
+    gap: 1.875rem;
+}
+
+.albums__list > li > div > h3 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .albums__list > li > div > h3 {
+    color: var(--color-grey-1);  
+}
+
+.price__area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8.75rem;
+}
+
+.price__area > p {
+    color: var(--color-grey-1);
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.dark__mode .price__area > p {
+    color: var(--color-grey-1);
+}
