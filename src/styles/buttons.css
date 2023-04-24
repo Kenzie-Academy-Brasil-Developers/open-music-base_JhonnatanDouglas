@@ -53,11 +53,11 @@
     font-size: var(--font-3);
     font-weight: var(--font-weight-2);
     line-height: var(--line-height-1);
-    color: var(--color-white-fixed) !important;
+    color: var(--color-white-fixed);
     padding: 0rem 0.5rem;
     height: 1.875rem;
     background-color: var(--color-actived-fixed);
-    border: 0.0625rem solid var(--color-white-fixed) !important;
+    border: 0.0625rem solid var(--color-white-fixed);
     border-radius: var(--radius-1);
     cursor: pointer;
 }

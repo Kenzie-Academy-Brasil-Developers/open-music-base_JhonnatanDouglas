@@ -20,11 +20,13 @@ export const handleSearch = (arrayCategories, arrayProducts) => {
             buttonsCategory.forEach((activeButton) => {
                 if(activeButton.classList.contains('button__primary--active')) {
                     activeButton.classList.remove('button__primary--active');
+                    activeButton.classList.add('button__primary');
                 };
             });
 
             localStorage.setItem('lastCategoryClicked', element.innerText);
             element.classList.add('button__primary--active');
+            element.classList.remove('button__primary');
             renderFilteredCategory(arrayProducts);
         });
     });
