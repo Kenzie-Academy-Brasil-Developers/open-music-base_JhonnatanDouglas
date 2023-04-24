@@ -17,9 +17,9 @@ export const renderFilteredValue = (arrayProducts) => {
 
     const filteredInput = arrayProducts.filter((product) => {
 
-        if (inputRange <= product.price && indexCategory === product.category) {
+        if (inputRange >= product.price && indexCategory === product.category) {
             return product;
-        } else if (inputRange <= product.price && indexCategory === 0) {
+        } else if (inputRange >= product.price && indexCategory === 0) {
             return product;
         };
     });
@@ -29,7 +29,6 @@ export const renderFilteredValue = (arrayProducts) => {
 export const renderPreferences = () => {
     const lastFilter = localStorage.getItem('lastCategoryClicked');
     const buttons = document.querySelectorAll('.category__list > li > button');
-    const buttonsPrimary = document.querySelectorAll('.button__primary');
 
     buttons.forEach((button) => {
         if(button.innerText === lastFilter) {
