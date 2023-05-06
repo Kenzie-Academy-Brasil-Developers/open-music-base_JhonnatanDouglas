@@ -1,4 +1,4 @@
-# **Nome do Projeto:** 🏁 Entrega: Open Music
+# 🏁 Entrega: Open Music
 
 ### :date: **Período do Projeto:** Módulo 2 - Semana 4
 ### :iphone: **Mobile First =** False
