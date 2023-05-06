@@ -1,7 +1,7 @@
 # **Nome do Projeto:** 🏁 Entrega: Open Music
 
 ### :date: **Período do Projeto:** Módulo 2 - Semana 4
-### :iphone: **Mobile First:** False
+### :iphone: **Mobile First =** False
 
 
 ##### **Descrição:** Desenvolvimento baseado em uma loja de músicas. Onde o usuário poderá filtrar por categoria e preço.
