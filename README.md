@@ -2,9 +2,10 @@
 
 ### :date: **Período do Projeto:** Módulo 2 - Semana 4
 ### :iphone: **Mobile First =** False
+#### :computer: Acesse o projeto em funcionamento: [CLIQUE AQUI](https://kenzie-academy-brasil-developers.github.io/open-music-base_JhonnatanDouglas/) 
 
 
-##### **Descrição:** Desenvolvimento baseado em uma loja de músicas. Onde o usuário poderá filtrar por categoria e preço.
+##### **Descrição:** Desenvolvimento baseado em uma loja de músicas. Onde o usuário poderá filtrar por categoria e preço. Feito com HTML5, CSS3 e vanilla JavaScript.
 
 ##### O intuito deste projeto foi colocar em prática tudo que foi aprendido no curso sobre os métodos de arrays e localstorage.
 
